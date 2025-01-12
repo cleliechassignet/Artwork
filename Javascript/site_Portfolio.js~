@@ -1,0 +1,29 @@
+const img1 = document.querySelector('.img1');
+const img2 = document.querySelector('.img2');
+
+const rect1 = document.querySelector('.rect1');
+const rect1b = document.querySelector('.rect1b');
+
+const rect2 = document.querySelector('.rect2');
+const rect2b = document.querySelector('.rect2b');
+
+rect1.onmouseover = function (){
+	img1.style.display='flex';
+	rect1b.style.display='flex';
+}
+ 
+rect1.onmouseout = function (){
+	img1.style.display='none';
+	rect1b.style.display='none';
+}
+
+rect2.onmouseover = function (){
+	img2.style.display='flex';
+	rect2b.style.display='flex';
+}
+ 
+rect2.onmouseout = function (){
+	img2.style.display='none';
+	rect2b.style.display='none';
+}
+
