@@ -1,0 +1,11 @@
+
+  #Background {
+ /* Fixe l'image en haut à gauche de la page */
+ position: fixed; 
+ top: 0; 
+ left: 0; 
+ /* Préserve le ratio de l'image */
+ width: 100%;
+ height: 100%;
+}
+

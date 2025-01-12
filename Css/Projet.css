@@ -1,0 +1,67 @@
+body{
+  margin: 0 !important;
+  color:rgba(0, 0, 0, 0.74);
+}
+
+body:after{
+	content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+	border-top:28px solid #002FA7; /*Bleu de Klein*/
+	z-index: 5;
+  pointer-events: none;
+}
+
+
+@media (min-width: 40rem) {
+	body:after{
+    border-top: none;
+		box-shadow: inset 24px 24px #002FA7, inset -24px -24px #002FA7; /*Bleu de Klein*/
+	}
+}
+
+/*-----------NAV---------*/
+
+nav{
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+  position: fixed;
+}
+
+nav h1 {
+    font-size: 13px;
+    letter-spacing: 0.4em;
+    line-height: 16px;
+    display: inline-block;
+    margin: 8px;
+    word-spacing: 1em;
+    color: white;
+    border: 0;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 40rem) {
+  nav h1{
+    font-size: 16px;
+    margin: 0.3em;
+  }
+}
+
+.container{
+  margin-top: 3em;
+  text-align: center;
+}
+
+@media (min-width: 40rem) {
+  .container{
+    margin-top: 5em;
+  }
+}
