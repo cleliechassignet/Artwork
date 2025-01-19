@@ -1000,7 +1000,7 @@ h2{
 	.section .fp-slide,
 	.section .fp-tableCell
 	{
-	    height: auto !important;
+	    /*height: auto !important;*/
 	}
 	/*pas de slide sur le coté en responsive*/
 	.slide{
