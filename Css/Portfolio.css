@@ -996,12 +996,25 @@ h2{
 		line-height: 22px;
 	}
 
+	#section3{
+		background-image:url(../Images/Background_website_mobile.jpg);
+		background-size: cover;
+	}
+
+	.texte3{
+		font-size:15px;
+		/*right: 10%;*/
+		top:65%;
+		width: 85%;
+	}
+
 	.section,
 	.section .fp-slide,
 	.section .fp-tableCell
 	{
 	    /*height: auto !important;*/
 	}
+
 	/*pas de slide sur le coté en responsive*/
 	.slide{
 		display: none;
