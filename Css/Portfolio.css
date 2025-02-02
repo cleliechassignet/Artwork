@@ -24,6 +24,7 @@ body:after{
 @media (min-width: 40rem) {
 	body:after{
 		border:28px solid black; 
+		
 	}
 }
 
@@ -990,22 +991,41 @@ h2{
 	}
 
 @media (max-width: 40rem) {
+
+	body{
+		background: 
+    	/*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
+    	url("../Images/Fond_mobile2.jpg");
+    	background-size: cover;
+    } 
 	
+	nav h1{
+		color: #C5D4EB;
+        margin-right: 10%;
+        position: fixed;
+        right: 0;
+	}
+
 	.texte h3, .texte1 h3{
 		font-size: 11px;
 		line-height: 22px;
 	}
 
 	#section3{
-		background-image:url(../Images/Background_website_mobile.jpg);
+		background-image:url(../Images/FondAbout_mobile4.jpg);
 		background-size: cover;
 	}
 
+	.texte3 h2{
+		display:none;
+	}
 	.texte3{
-		font-size:15px;
-		/*right: 10%;*/
-		top:65%;
-		width: 85%;
+		font-size: 15px;
+        /* right: 10%; */
+        top: 5%;
+        width: 70%;
+        text-align: left;
+        left: 15%;
 	}
 
 	.section,
