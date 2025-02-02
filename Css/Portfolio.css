@@ -1,4 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+
 @font-face {
     font-family: 'Agency FB';
     src: url('../Font/AGENCYB.TTF') format('truetype');
@@ -15,6 +19,7 @@ body{
     position: fixed;
     width: 100%;
     height: 100%;
+    font-family: 'Roboto', sans-serif;
 }
 
 body:after{
