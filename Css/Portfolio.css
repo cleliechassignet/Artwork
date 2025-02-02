@@ -1,11 +1,4 @@
 
-@font-face {
-    font-family: 'Agency FB';
-    src: url('../Font/AGENCYB.TTF') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body{
 	margin: 0 !important;
 	background: 
@@ -999,13 +992,6 @@ h2{
 	}
 
 @media (max-width: 40rem) {
-
-	@font-face {
-    font-family: 'Agency FB';
-    src: url('../Font/AGENCYB.TTF') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-	}
 
 	body{
 		background: 
