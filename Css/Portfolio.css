@@ -61,7 +61,7 @@ nav{
 
 nav h1 {
     font-size: 13px;
-    font-family: "Agency FB", sans-serif;
+    font-family: "Agency FB V2", sans-serif;
     letter-spacing: 0.4em;
     line-height: 16px;
     display: inline-block;
@@ -80,14 +80,14 @@ nav h5{
 }
 
 h2{
-	font-family: "Agency FB", sans-serif;
+	font-family: "Agency FB V2", sans-serif;
 	font-weight: 400;
 }
 
 @media (min-width: 40rem) {
 	nav h1{
 		font-size: 16px;
-		font-family: "Agency FB", sans-serif;
+		font-family: "Agency FB V2", sans-serif;
 		margin: 0.3em;
 	}
 }
@@ -136,7 +136,7 @@ h2{
   text-decoration: none;
   color: #C5D4EB; /*001A5F*/
   transition: color 0.3s ease;
-  font-family: "Agency FB", sans-serif;
+  font-family: "Agency FB Agency FB V2", sans-serif;
 }
 
 #menuToggle a:hover
@@ -715,7 +715,7 @@ h2{
 
 #CC, #Artwork{
 	letter-spacing: 0.2em;
-	font-family: "Agency FB", sans-serif;
+	font-family: "Agency FB Agency FB V2", sans-serif;
 	font-weight: normal;
 	color: #C5D4EB;
 
@@ -836,7 +836,7 @@ h2{
 		text-decoration: none;
 		cursor: pointer;
 		font-size: 16px;
-		font-family: "Agency FB", sans-serif;
+		font-family: "Agency FB V2", sans-serif;
 		margin: 0 1em 0 1em;
 		font-weight: normal;
 	}
@@ -847,7 +847,7 @@ h2{
 		border: 0;
 		text-decoration: none;
 		font-size: 16px;
-		font-family: "Agency FB", sans-serif;
+		font-family: "Agency FB V2", sans-serif;
 		margin: 0 1em 0 1em;
 		font-weight: normal;
 	}
@@ -1009,7 +1009,7 @@ h2{
   	position: fixed;
   	right: 0;*/
   	font-size: 18px;
-  	font-family: "Agency FB", sans-serif;
+  	font-family: "Agency FB V2", sans-serif;
   	font-weight: normal;
   	width: 35%;
   	height: 50%;
@@ -1030,8 +1030,13 @@ h2{
 @media (max-width: 40rem) {
 
 	@font-face {
-    font-family: 'Agency FB';
-    src: url('../Font/agencyfb_reg.TTF') format('truetype');
+	    font-family: "Agency FB V2";
+	    src: url("https://db.onlinewebfonts.com/t/f9b9a4fce362a3a9111c138859ccb422.eot");
+	    src: url("https://db.onlinewebfonts.com/t/f9b9a4fce362a3a9111c138859ccb422.eot?#iefix")format("embedded-opentype"),
+	    url("https://db.onlinewebfonts.com/t/f9b9a4fce362a3a9111c138859ccb422.woff2")format("woff2"),
+	    url("https://db.onlinewebfonts.com/t/f9b9a4fce362a3a9111c138859ccb422.woff")format("woff"),
+	    url("https://db.onlinewebfonts.com/t/f9b9a4fce362a3a9111c138859ccb422.ttf")format("truetype"),
+	    url("https://db.onlinewebfonts.com/t/f9b9a4fce362a3a9111c138859ccb422.svg#Agency FB V2")format("svg");
 	}
 
 	body{
