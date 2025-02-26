@@ -52,6 +52,7 @@
                 <a href="#tattoo"> <h5> Tattoo </h5> </a>
                 <!--<a href="#sparkling"> <h5> Sparkling </h5> </a>-->
                 <a href="#eldorado"> <h5> Eldorado cinema </h5> </a>
+                <a href="#contact"> <h5> Contact </h5> </a>
                 <!--<a href="#balthus"> <h5> Les Beaux Jours </h5> </a>-->
                 <!--<img src="Images/whiteArrow.svg"  sizes="(max-width: 767px) 80vw, (max-width: 991px) 354px, 400px" alt="" class="arrowScreen"> -->
                 <div class="scroll-downProjects">
@@ -60,22 +61,18 @@
             </div>
 
             <div class="menu">
-                <a href="#firstSection">ABOUT</a>
+                <a href="#firstSection">About</a>
                 <h1 class="tirets"> - </h1>
                 <div class="CV">
-                    <h1 class="titre"></h1>
+                    <!--<h1 class="titre"></h1>
                     <a href="Images/Chassignet_Clelie_CV_2025_Artist.pdf" target=_blank> CV [FR] </a>
-                    <h1 class="tirets"> - </h1>
-                    <a href="Images/Chassignet_Clelie_CV_2025_English.pdf" target=_blank> CV [EN] </a>
+                    <h1 class="tirets"> - </h1>-->
+                    <a href="Images/Chassignet_Clelie_CV_2025_Artist.pdf" target=_blank> Curriculum Vitae </a>
                 </div>
             </div>
             
             <div class="infos">
-                <a href="mailto:cleliechassignet2@gmail.com" target=_blank>contact</a>
-                <h1 class="tirets"> - </h1>
-                <a href="https://www.linkedin.com/in/cl%C3%A9lie-chassignet-5788281a9" target=_blank>Linkedin</a>
-                <h1 class="tirets"> - </h1>
-                <a href="https://www.behance.net/cleliechassig" target=_blank>Behance</a>
+                <p>Enjoy - <a href="#contact">Contact</a> - Life</p>
             </div>
 
             <div id="menuToggle">
@@ -89,10 +86,8 @@
                 
                 <ul id="menu">
                   <!--<a href="#firstSection"><li>About</li></a>-->
-                  <a href="Images/Chassignet_Clelie_CV_2025_Artist.pdf" target=_blank><li>French CV</li></a>
-                  <a href="Images/Chassignet_Clelie_CV_2025_English.pdf" target=_blank><li>English CV</li></a>
-                  <a href="mailto:cleliechassignet2@gmail.com" target=_blank><li>Contact</li></a>
-                  <a href="https://www.behance.net/cleliechassig" target="_blank"><li>Behance</li></a>
+                  <a href="Images/Chassignet_Clelie_CV_2025_Artist.pdf" target=_blank><li>Curriculum Vitae</li></a>
+                  <a href="#contact"><li>Contact</li></a>
                 </ul>
               </div>
 
@@ -163,8 +158,8 @@
             <!--Section About me-->
             <div class="section" id="section3" data-anchor="firstSection">
                 <div class="texte3">
-                    <h2> ABOUT ME</h2>
-                    <p>The waltz of my life </br> - </br> This is my free space of expression </br> - </br> A space to let my being speak, through my body, through my brain. </br> - </br> At my own rhythm, sharing improvisations and spontaneity of art. </br> - </br> I study movement, I live in movement. </p>
+                    <h2> THE WALTZ OF MY LIFE </h2>
+                    <p> This is my free space of expression </br> - </br> A space to let my being speak, through my body, through my brain. </br> - </br> At my own rhythm, instinctively dancing, I share the spontaneity of my art. </br> - </br> I study movement, I live in movement. </p>
                 </div> 
             </div>
 
@@ -249,7 +244,7 @@
 
             <!--Section Tattoo-->
             <div class="section" id="section1" data-anchor="tattoo">
-                 <div class="slide" id="slide1">
+                 
                     <div class="img_section" >
                         <!-- <iframe width="560" height="315" src="https://vimeo.com/418013340" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
                             <embed width="560" height="315" src="Videos/Tattoo.mp4" autostart="false" /> --->
@@ -271,7 +266,7 @@
                             </h3>
                         </div>
                     </div>     
-                </div>
+               
             </div>
 
 
@@ -306,7 +301,7 @@
 
             <!--Section 3D-->
             <div class="section" id="section1" data-anchor="eldorado">
-                <div class="slide" id="slide1">
+                
                     <div class="img_section" >
                         <div class="video-wrapper">
                             <div class="video-container">
@@ -318,7 +313,26 @@
                             <h3>3D realization, according to plans, of an art cinema that I cherish. The Eldorado, in Dijon, which atmosphere rocked my youth. </h3>
                         </div>
                     </div>
-                </div>
+                
+            </div>
+
+            <div class="section" id="section4" data-anchor="contact">
+                <div class="img_section" >
+                    <div class="contact">
+                        <h2> CONTACT </h2>
+                         <div class="line2"></div>   
+                        </br>
+                        <h2>
+                            <a href="mailto:cleliechassignet2@gmail.com" target=_blank>cleliechassignet2@gmail.com</a>
+                        </h2>
+                        <h2>
+                            <a href="https://www.linkedin.com/in/cl%C3%A9lie-chassignet-5788281a9" target=_blank>Linkedin</a>
+                        </h2>  
+                        <h2>
+                            <a href="https://www.instagram.com/cleliechassignet/" target=_blank>Instagram</a>
+                        </h2>
+                    </div>
+                </div> 
             </div>
 
             <!--
@@ -377,9 +391,9 @@
 
                     if ($(window).width()>480){
                         if (origin.index === 0) {
-                        document.querySelector('.hide-on-first-section').style.display = 'block';
-                        document.querySelector('.projets').style.display = 'block';
-                        document.querySelector('.scroll-downProjects').style.display = 'block';
+                            document.querySelector('.hide-on-first-section').style.display = 'block';
+                            document.querySelector('.projets').style.display = 'block';
+                            document.querySelector('.scroll-downProjects').style.display = 'block';
 
                         } else if (destination.index === 0) {
                             document.querySelector('.hide-on-first-section').style.display = 'none';
@@ -389,8 +403,8 @@
                     }
                     else if ($(window).width()<480){
                         if (origin.index === 0) {
-                        document.querySelector('.hide-on-first-section').style.display = 'block';
-                        document.querySelector('.scroll-downProjects').style.display = 'block';
+                            document.querySelector('.hide-on-first-section').style.display = 'block';
+                            document.querySelector('.scroll-downProjects').style.display = 'block';
 
                         } else if (destination.index === 0) {
                             document.querySelector('.hide-on-first-section').style.display = 'none';
