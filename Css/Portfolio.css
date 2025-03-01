@@ -137,6 +137,7 @@ h2{
   color: #C5D4EB; /*001A5F*/
   transition: color 0.3s ease;
   font-family: "Agency FB Agency FB V2", sans-serif;
+
 }
 
 #menuToggle a:hover
@@ -241,8 +242,8 @@ h2{
 
 #menu li
 {
-  padding: 10px 0;
-  font-size: 22px;
+  padding: 5px 0;
+  font-size: 15px;
 }
 
 /*
@@ -253,6 +254,14 @@ h2{
   transform: none;
 }
 
+#menu li:hover{
+	color: grey;
+}
+
+/*
+#menuToggle a:hover{
+	color: grey;
+}*/
 
 @media (min-width: 40rem) {
    #menuToggle{
@@ -1060,8 +1069,9 @@ h2{
 
 
 	#section3{
-		background-image:url(../Images/FondAbout_mobile4.jpg);
-		background-size: cover;
+
+		background-image:url(../Images/FondAbout_mobile5.jpg);
+
 	}
 
 	#section4{
@@ -1074,6 +1084,9 @@ h2{
 	.texte3{
 		font-size: 15px;
         /* right: 10%; */
+
+        line-height: 93%;
+
         top: 5%;
         width: 70%;
         text-align: left;
