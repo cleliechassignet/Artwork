@@ -843,23 +843,23 @@ h2{
 		color: grey;
 	  }
 
-	.infos a, .menu a, .projets a, .hide-on-first-section a{
+	.infos p{
 		letter-spacing: 0.2em;
-        color: #C5D4EB; /*001A5F*/
+        color: grey; /*001A5F*/
 		border: 0;
 		text-decoration: none;
-		cursor: pointer;
 		font-size: 16px;
 		font-family: "Agency FB V2", sans-serif;
 		margin: 0 1em 0 1em;
 		font-weight: normal;
 	}
 
-	.infos p{
+	.infos a, .menu a, .projets a, .hide-on-first-section a{
 		letter-spacing: 0.2em;
         color: #C5D4EB; /*001A5F*/
 		border: 0;
 		text-decoration: none;
+		cursor: pointer;
 		font-size: 16px;
 		font-family: "Agency FB V2", sans-serif;
 		margin: 0 1em 0 1em;
@@ -1022,7 +1022,7 @@ h2{
   	font-weight: normal;
   	position: fixed;
   	right: 0;*/
-  	font-size: 18px;
+  	font-size: 16px;
   	font-family: "Agency FB V2", sans-serif;
   	font-weight: normal;
   	width: 35%;
