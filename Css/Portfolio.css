@@ -226,12 +226,12 @@ h2{
 {
   position: absolute;
   width: 140px;
-  margin: -50px 0 0 -50px;
+  margin: 0px 0 0 -50px;
   border-radius: 5px;
   padding-bottom: 10px;
   padding-right:0;
   padding-left: 50px;
-  padding-top: 60px;
+  padding-top: 15px;
   background: black;
   border:solid 3px;
   border-color: #C5D4EB;
@@ -1075,7 +1075,7 @@ h2{
 
 	#section3{
 
-		background-image:url(../Images/FondAbout_mobile5.jpg);
+		background-image:url(../Images/Fond_mobile_new.jpg);
 
 	}
 
@@ -1083,20 +1083,22 @@ h2{
 		background-color: #C5D4EB;
 		background-size: cover;
 	}
-	.texte3 h2{
-		display:none;
-	}
+	
 	.texte3{
+		color:#C5D4EB;
 		font-size: 15px;
         /* right: 10%; */
 
         line-height: 93%;
-
-        top: 5%;
+        top:60%;
         width: 70%;
         text-align: left;
         left: 15%;
 	}
+
+	.texte3 h2{
+		font-size: 27px;
+		}
 
 	.section,
 	.section .fp-slide,
